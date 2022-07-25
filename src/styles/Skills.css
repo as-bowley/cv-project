@@ -1,0 +1,58 @@
+.skillsForm {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.skillsForm > h3 {
+  font-family: sans-serif, Arial, Helvetica;
+  width: 100%;
+}
+
+.skillsForm > input {
+  box-sizing: border-box;
+  width: 49.2%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.skillsForm > button {
+  background-color: #434466;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  margin-left: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skillsEditList {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillsEditList > button {
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  height: 30px;
+}
+
+.skillsEditList > button > small {
+  margin-left: 5px;
+  color: rgb(248, 108, 108);
+}

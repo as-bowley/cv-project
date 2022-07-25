@@ -60,7 +60,6 @@ export default class Personal extends React.Component {
           type="number"
           placeholder="Phone No."
           name="phoneNum"
-          className="long"
           value={this.props.formData.phoneNo}
           onChange={this.props.handleChange}
         />
@@ -68,7 +67,6 @@ export default class Personal extends React.Component {
           type="email"
           placeholder="Email"
           name="email"
-          className="long"
           value={this.props.formData.email}
           onChange={this.props.handleChange}
         />

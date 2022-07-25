@@ -2,35 +2,35 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .personalTitle {
   font-family: sans-serif, Arial, Helvetica;
   width: 100%;
+  margin-top: 5px;
 }
 
-input {
-  width: 45%;
+.personalInformation > input {
+  box-sizing: border-box;
+  width: 49.2%;
   margin-bottom: 20px;
-  height: 20px;
+  height: 30px;
   border-radius: 5px;
   border: 1px solid gray;
   padding: 5px;
   font-family: "Inter", sans-serif;
 }
 
-textarea {
-  width: 45%;
+.personalInformation > input + .long {
+  width: 100%;
+}
+
+.personalInformation > textarea {
   margin-bottom: 20px;
   height: 80px;
   border-radius: 5px;
   border: 1px solid gray;
   padding: 5px;
   font-family: "Inter", sans-serif;
-}
-
-.long {
-  width: 93%;
 }

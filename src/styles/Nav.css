@@ -1,7 +1,7 @@
 .navbar {
   background-color: #34353d;
   width: 100vw;
-  height: 50px;
+  height: 60px;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -13,4 +13,5 @@
   color: white;
   font-family: sans-serif, Arial, Helvetica;
   font-weight: 600;
+  font-size: 30px;
 }

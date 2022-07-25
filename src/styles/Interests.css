@@ -1,0 +1,21 @@
+.interests--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 8px;
+}
+
+.interests--title {
+  font-family: sans-serif, Arial, Helvetica;
+  width: 100%;
+}
+
+.interests--container > textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}

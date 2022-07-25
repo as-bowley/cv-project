@@ -1,0 +1,72 @@
+.experienceForm--container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 8px;
+}
+
+.experienceForm--title {
+  font-family: sans-serif, Arial, Helvetica;
+  width: 100%;
+}
+
+.experienceForm--container > input {
+  box-sizing: border-box;
+  width: 49.2%;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.experienceForm--container > input + .long {
+  width: 100%;
+}
+
+.experienceForm--container > textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.experienceForm--container .addButton {
+  background-color: #434466;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.experienceEditList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.experienceEditList > button {
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  height: 100%;
+}
+
+.experienceEditList > button > small {
+  margin-left: 5px;
+  color: rgb(248, 108, 108);
+}

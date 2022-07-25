@@ -1,5 +1,188 @@
 .display--container {
   font-family: sans-serif, Arial, Helvetica;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+}
+
+.display--left {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #434466;
+  color: white;
+}
+
+.display--right {
+  padding: 50px;
+}
+
+.jobTitle {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.display--left--divider {
+  width: 100%;
+  height: 50px;
+  background-color: #51537a;
+  display: flex;
+  align-items: center;
+  margin: -10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.display--left--divider > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}
+
+.display--left > p {
+  font-size: 14px;
+}
+
+.display--left > h1 {
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 70px;
+  margin-bottom: 0;
+}
+
+.display--left--infoSection {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.display--left--infoSection > h5 {
+  margin: 0;
+  margin-bottom: 10px;
+  letter-spacing: 0.04em;
+  font-size: 0.9em;
+}
+
+.display--left--infoSection > p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 21px;
+  font-size: 0.75em;
+}
+
+.display--left--skills {
+  padding-left: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.display--left--skills > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.display--right--description {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.lineBreak {
+  display: flex;
+  height: 5px;
+  width: 100%;
+  border-bottom: 1px solid #9c9c9c;
+  margin-bottom: 20px;
+}
+
+.display--right > h4 {
+  margin-bottom: 10px;
+}
+
+.display--right--experience {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 2.5fr;
+  height: 200px;
+}
+
+.experience--dates {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.experience--titlecompany > h4 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.experience--titlecompany > p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.experience--description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-style: italic;
+}
+
+.display--right--education {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 2.5fr;
+  height: 200px;
+}
+
+.education--dates {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.education--school > h4 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.education--school > p {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.education--description {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-style: italic;
+}
+
+.display--right--personalInterests > p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  font-style: italic;
 }
